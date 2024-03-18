@@ -1,0 +1,34 @@
+body{
+    background-color: black;
+}
+
+header h1{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: brown;
+    border-radius: .3rem;
+}
+
+nav ul{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.contenido {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+footer p{
+    color: white;
+    text-align: center;
+}
